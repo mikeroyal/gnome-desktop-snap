@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/48868212-b0f7c680-ed8d-11e8-83b2-d5cf21833a63.jpeg">
+  <img src="https://user-images.githubusercontent.com/45159366/48986446-e839e080-f0c9-11e8-9c39-39efb20f3e99.png">
   <br />
-  salt
+  FaaS
 </h1>
 
-<p align="center"><b>This is the snap for salt, software to automate the management and configuration of any infrastructure or application at scale. It works on Ubuntu, Fedora, Debian, and other major Linux
+<p align="center"><b>This is the snap for OpenFaaS, Serverless Functions Made Simple for Docker & Kubernetes . It works on Ubuntu, Fedora, Debian, and other major Linux
 distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
@@ -21,7 +21,7 @@ distributions.</p>
 
 ## Install
 
-    sudo snap install salt
+    sudo snap install faas
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
