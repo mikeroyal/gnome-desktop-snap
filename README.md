@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/49499508-18e4ed00-f823-11e8-84fd-d3e3abacf617.jpeg">
+  <img src="https://user-images.githubusercontent.com/45159366/49500050-93fad300-f824-11e8-84d8-9d38a4a9d761.png">
   <br />
   FoundationDB 
 </h1>
 
-<p align="center"><b>This is the snap for FoundationDB, the open source, distributed, transactional key-value store. It works on Ubuntu, Fedora, Debian, and other major Linux.
+<p align="center"><b>This is the snap for FoundationDB, a distributed database designed to handle large volumes of structured data across clusters of commodity servers. It works on Ubuntu, Fedora, Debian, and other major Linux.
 distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
