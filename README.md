@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/49337347-e8a11280-f5c6-11e8-9d24-47f9f504a44d.jpeg">
+  <img src="https://user-images.githubusercontent.com/45159366/49499508-18e4ed00-f823-11e8-84fd-d3e3abacf617.jpeg">
   <br />
-  Chalice
+  FoundationDB 
 </h1>
 
-<p align="center"><b>This is the snap for Chalice, a Python Serverless Microframework for AWS. It works on Ubuntu, Fedora, Debian, and other major Linux.
+<p align="center"><b>This is the snap for FoundationDB, the open source, distributed, transactional key-value store. It works on Ubuntu, Fedora, Debian, and other major Linux.
 distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
@@ -21,7 +21,7 @@ distributions.</p>
 
 ## Install
 
-    sudo snap install chalice
+    sudo snap install foundationdb
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
