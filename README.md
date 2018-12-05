@@ -4,8 +4,7 @@
   FoundationDB 
 </h1>
 
-<p align="center"><b>This is the snap for FoundationDB, a distributed database designed to handle large volumes of structured data across clusters of commodity servers. It works on Ubuntu, Fedora, Debian, and other major Linux.
-distributions.</p>
+<p align="center"><b>This is the snap for FoundationDB, a distributed database designed to handle large volumes of structured data across clusters of commodity servers. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
