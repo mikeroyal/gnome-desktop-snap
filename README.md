@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/49635473-c0455980-f9b4-11e8-8da8-e1a87b2effbd.png">
+  <img src="https://user-images.githubusercontent.com/45159366/49718949-883a5280-fc10-11e8-9f31-9e9d194198e0.png">
   <br />
   gsutil
 </h1>
