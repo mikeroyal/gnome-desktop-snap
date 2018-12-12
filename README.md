@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/49718949-883a5280-fc10-11e8-9f31-9e9d194198e0.png">
+  <img src="https://user-images.githubusercontent.com/45159366/49855950-8e146d00-fda3-11e8-9883-d5f2ca3f566a.png">
   <br />
   gvisor
 </h1>
