@@ -1,10 +1,10 @@
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/49718949-883a5280-fc10-11e8-9f31-9e9d194198e0.png">
   <br />
-  gsutil
+  gvisor
 </h1>
 
-<p align="center"><b>This is the snap for gsutil, a command line tool for interacting with cloud storage services. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
+<p align="center"><b>This is the snap for gvisor, a Container Runtime Sandbox. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install gsutil
+    sudo snap install gvisor
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
