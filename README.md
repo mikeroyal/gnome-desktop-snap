@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/49855950-8e146d00-fda3-11e8-9883-d5f2ca3f566a.png">
+  <img src="https://user-images.githubusercontent.com/45159366/49925165-f67b5100-fe6c-11e8-8fcb-9788df663826.png">
   <br />
-  gvisor
+  azuredatastudio
 </h1>
 
-<p align="center"><b>This is the snap for gvisor, a Container Runtime Sandbox. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
+<p align="center"><b>This is the snap for azuredatastudio, Azure Data Studio is a data management tool that enables working with SQL Server, Azure SQL DB and SQL DW from Windows, macOS and Linux. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install gvisor
+    sudo snap install azuredatastudio
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
