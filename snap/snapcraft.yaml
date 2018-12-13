@@ -1,6 +1,6 @@
-name: gvisor
-summary: a Container Runtime Sandbox.
-description: gVisor is a user-space kernel, written in Go, that implements a substantial portion of the Linux system surface.
+name: azuredatastudio
+summary: Azure Data Studio is a data management tool that enables working with SQL Server, Azure SQL DB and SQL DW from Windows, macOS and Linux. 
+description: 
   
 adopt-info: devmode # use 'strict' once you have the right plugs and slots
 
@@ -13,15 +13,15 @@ architectures:
   - build-on: arm64
 
 apps:
-  gvisor:
-    command: gvisor
+  azuredatastudio:
+    command: azuredatastudio
     plugs:
       - network
 
 parts:
-  gvisor:
+  azuredatastudio:
     plugin: 
-    source: https://github.com/google/gvisor.git
+    source: https://github.com/Microsoft/azuredatastudio.git
     source-type: git
     override-pull: |
       snapcraftctl pull
