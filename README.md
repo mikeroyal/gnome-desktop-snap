@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/49991001-81734e80-ff34-11e8-8dee-b2d6c8a15c4c.png">
+  <img src="https://user-images.githubusercontent.com/45159366/50040728-09715b00-fffe-11e8-8bb6-e0f833d23ad6.png">
   <br />
-  earthenterprise
+  PhysX
 </h1>
 
-<p align="center"><b>This is the snap for earthenterprise,the open source release of Google Earth Enterprise. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
+<p align="center"><b>This is the snap for PhysX,the NVIDIA PhysX SDK. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install earthenterprise
+    sudo snap install physx
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
