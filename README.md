@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/50040728-09715b00-fffe-11e8-8bb6-e0f833d23ad6.png">
+  <img src="https://user-images.githubusercontent.com/45159366/50140810-c3fd9980-025a-11e9-8480-93a4febdb514.png">
   <br />
-  PhysX
+  CartoDB
 </h1>
 
-<p align="center"><b>This is the snap for PhysX,the NVIDIA PhysX SDK. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
+<p align="center"><b>This is the snap for CartoDB, a Location Intelligence & Data Visualization tool. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install physx
+    sudo snap install cartodb
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
