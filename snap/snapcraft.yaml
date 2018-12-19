@@ -1,5 +1,5 @@
-name: PhysX
-summary: The NVIDIA PhysX SDK
+name: cartodb
+summary: Location Intelligence & Data Visualization tool.
 description: 
   
 adopt-info: devmode # use 'strict' once you have the right plugs and slots
@@ -13,15 +13,15 @@ architectures:
   - build-on: arm64
 
 apps:
-  PhysX:
-    command: PhysX
+  cartodb:
+    command: cartodb
     plugs:
       - network
 
 parts:
-  PhysX:
+  cartodb:
     plugin: 
-    source: https://github.com/NVIDIAGameWorks/PhysX-3.4.git
+    source: https://github.com/CartoDB/cartodb.git
     source-type: git
     override-pull: |
       snapcraftctl pull
