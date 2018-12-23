@@ -39,7 +39,7 @@ upstream so [Project] can authoritatively publish future releases.
   - [x] Rename the forked Snapcrafters template repository
   - [x] Update the description of the repository
   - [x] Update logos and references to `[Project]` and `[my-snap-name]`
-  - [ ] Create a snap that runs in `devmode`
+  - [x] Create a snap that runs in `devmode`
   - [ ] Register the snap in the store, **using the preferred upstream name**
   - [x] Add a screenshot to this `README.md`
   - [ ] Publish the `devmode` snap in the Snap store edge channel
