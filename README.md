@@ -24,6 +24,7 @@
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
+# AirSim Autonomous Car demo
 ![my-snap-name](https://user-images.githubusercontent.com/45159366/50394255-2e0db700-0711-11e9-8d0e-1570c1004f46.jpeg?raw=true "my-snap-name")
 
 ## Remaining tasks
