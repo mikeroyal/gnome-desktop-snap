@@ -1,5 +1,5 @@
-name: airsim
-summary: Open source simulator for autonomous vehicles built on Unreal Engine/Unity, from Microsoft AI & Research.
+name: amazon-ecs-init
+summary: The Amazon Elastic Container Service RPM.
 description: 
   
 adopt-info: devmode # use 'strict' once you have the right plugs and slots
@@ -13,15 +13,15 @@ architectures:
   - build-on: arm64
 
 apps:
-  airsim:
-    command: airsim
+  amazon-ecs-init:
+    command: amazon-ecs-init
     plugs:
       - network
 
 parts:
-  airsim:
+  amazon-ecs-init:
     plugin: 
-    source: https://github.com/Microsoft/AirSim.git
+    source: https://github.com/aws/amazon-ecs-init.git
     source-type: git
     override-pull: |
       snapcraftctl pull
