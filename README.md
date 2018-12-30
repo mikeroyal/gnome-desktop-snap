@@ -1,10 +1,10 @@
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/50394114-09fda600-0710-11e9-93c8-8c4788f86ec4.png">
   <br />
-  AirSim
+  amazon-ecs-init
 </h1>
 
-<p align="center"><b>This is the snap for AirSim, An Open source simulator for autonomous vehicles built on Unreal Engine/Unity, from Microsoft AI & Research. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
+<p align="center"><b>This is the snap for amazon-ecs-init, Amazon's Elastic Container Service RPM. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,12 +20,10 @@
 
 ## Install
 
-    sudo snap install airsim
+    sudo snap install amazon-ecs-init
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
-# AirSim Autonomous Car demo
-![my-snap-name](https://user-images.githubusercontent.com/45159366/50394255-2e0db700-0711-11e9-8d0e-1570c1004f46.jpeg?raw=true "my-snap-name")
 
 ## Remaining tasks
 
