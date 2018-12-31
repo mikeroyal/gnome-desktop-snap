@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/50394114-09fda600-0710-11e9-93c8-8c4788f86ec4.png">
+  <img src="https://user-images.githubusercontent.com/45159366/50545426-4164ca80-0bc8-11e9-9695-0045c6ac9122.png">
   <br />
   amazon-ecs-init
 </h1>
