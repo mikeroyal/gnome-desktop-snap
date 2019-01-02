@@ -1,10 +1,10 @@
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/50545426-4164ca80-0bc8-11e9-9695-0045c6ac9122.png">
   <br />
-  amazon-ecs-init
+  Vulkan Tools
 </h1>
 
-<p align="center"><b>This is the snap for amazon-ecs-init, Amazon's Elastic Container Service RPM. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
+<p align="center"><b>This is the snap for Vulkan Tools, provides Khronos official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install amazon-ecs-init
+    sudo snap install vulkan-tools
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
