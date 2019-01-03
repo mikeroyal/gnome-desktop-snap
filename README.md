@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/50545426-4164ca80-0bc8-11e9-9695-0045c6ac9122.png">
+  <img src="https://user-images.githubusercontent.com/45159366/50628051-33c28400-0eeb-11e9-8ef7-fa19a63ba495.png">
   <br />
   Vulkan Tools
 </h1>
