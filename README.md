@@ -1,10 +1,10 @@
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/50628051-33c28400-0eeb-11e9-8ef7-fa19a63ba495.png">
   <br />
-  Vulkan Tools
+  Serving
 </h1>
 
-<p align="center"><b>This is the snap for Vulkan Tools, provides Khronos official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
+<p align="center"><b>This is the snap for Serving, a flexible, high-performance serving system for machine learning models. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install vulkan-tools
+    sudo snap install serving
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
