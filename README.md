@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/50756378-e444c680-1210-11e9-8664-162e96f1cf0d.png">
   <br />
-  Serving
+  TensorFlow Serving
 </h1>
 
 <p align="center"><b>This is the snap for Serving, a flexible, high-performance serving system for machine learning models. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
