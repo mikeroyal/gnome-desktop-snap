@@ -1,5 +1,5 @@
-name: vulkan-tools
-summary: Vulkan Utilities and Tools.
+name: serving
+summary: A flexible, high-performance serving system for machine learning models.
 description: 
   
 adopt-info: devmode # use 'strict' once you have the right plugs and slots
@@ -13,15 +13,15 @@ architectures:
   - build-on: arm64
 
 apps:
-  vulkan-tools:
-    command: vulkan-tools
+  serving:
+    command: serving
     plugs:
       - network
 
 parts:
-  vulkan-tools:
+  serving:
     plugin: 
-    source: https://github.com/KhronosGroup/Vulkan-Tools.git
+    source: https://github.com/tensorflow/serving.git
     source-type: git
     override-pull: |
       snapcraftctl pull
