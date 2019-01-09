@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/50756378-e444c680-1210-11e9-8664-162e96f1cf0d.png">
+  <img src="https://user-images.githubusercontent.com/45159366/50889273-759c7000-13ac-11e9-90e2-d09f5c5ef9b9.png">
   <br />
-  TensorFlow Serving
+  Kitematic
 </h1>
 
-<p align="center"><b>This is the snap for Serving, a flexible, high-performance serving system for machine learning models. It works on Ubuntu, Fedora, Debian, and other major Linux distributions.</p>
+<p align="center"><b>This is the snap for Kitematic, a simple application for managing Docker containers on Linux. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install serving
+    sudo snap install kitematic
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
