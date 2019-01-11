@@ -1,5 +1,5 @@
-name: serving
-summary: A flexible, high-performance serving system for machine learning models.
+name: kitematic
+summary: Kitematic is a simple application for managing Docker containers on Mac,Linux and Windows.
 description: 
   
 adopt-info: devmode # use 'strict' once you have the right plugs and slots
@@ -13,15 +13,15 @@ architectures:
   - build-on: arm64
 
 apps:
-  serving:
-    command: serving
+  kitematic:
+    command: kitematic
     plugs:
       - network
 
 parts:
-  serving:
+  kitematic:
     plugin: 
-    source: https://github.com/tensorflow/serving.git
+    source: https://github.com/docker/kitematic.git
     source-type: git
     override-pull: |
       snapcraftctl pull
