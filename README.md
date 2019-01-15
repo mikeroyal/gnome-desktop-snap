@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/50889273-759c7000-13ac-11e9-90e2-d09f5c5ef9b9.png">
+  <img src="https://user-images.githubusercontent.com/45159366/51167743-26e35000-185c-11e9-890e-171b239c4660.png">
   <br />
-  Kitematic
+  ONNX Runtime
 </h1>
 
-<p align="center"><b>This is the snap for Kitematic, a simple application for managing Docker containers on Linux. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
+<p align="center"><b>This is the snap for ONNX Runtime, an open-source scoring engine for Open Neural Network Exchange (ONNX) models. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install kitematic
+    sudo snap install onnxruntime
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
