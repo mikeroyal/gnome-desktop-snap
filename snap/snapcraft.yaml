@@ -1,4 +1,4 @@
-name: kitematic
+name: onnxruntime
 summary: Kitematic is a simple application for managing Docker containers on Mac,Linux and Windows.
 description: 
   
@@ -13,15 +13,15 @@ architectures:
   - build-on: arm64
 
 apps:
-  kitematic:
-    command: kitematic
+  onnxruntime:
+    command: onnxruntime
     plugs:
       - network
 
 parts:
-  kitematic:
+  onnxruntime:
     plugin: 
-    source: https://github.com/docker/kitematic.git
+    source: https://github.com/Microsoft/onnxruntime.git
     source-type: git
     override-pull: |
       snapcraftctl pull
