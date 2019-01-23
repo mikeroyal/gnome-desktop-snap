@@ -4,7 +4,7 @@
   BotFramework-Emulator
 </h1>
 
-<p align="center"><b>This is the snap for BotFramework-Emulator, a desktop application that allows bot developers to test and debug bots built using the [BotBuilder SDK](https://github.com/microsoft/botbuilder). It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
+<p align="center"><b>This is the snap for BotFramework-Emulator, a desktop application that allows bot developers to test and debug bots built using the BotBuilder SDK. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
