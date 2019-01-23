@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/51167743-26e35000-185c-11e9-890e-171b239c4660.png">
+  <img src="https://user-images.githubusercontent.com/45159366/51592103-a5b33b00-1ea3-11e9-951e-d5c794076b2f.png">
   <br />
-  ONNX Runtime
+  BotFramework-Emulator
 </h1>
 
-<p align="center"><b>This is the snap for ONNX Runtime, an open-source scoring engine for Open Neural Network Exchange (ONNX) models. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
+<p align="center"><b>This is the snap for BotFramework-Emulator, a desktop application that allows bot developers to test and debug bots built using the [BotBuilder SDK](https://github.com/microsoft/botbuilder). It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install onnxruntime
+    sudo snap install botframework-emulator
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
