@@ -1,5 +1,5 @@
-name: onnxruntime
-summary: Kitematic is a simple application for managing Docker containers on Mac,Linux and Windows.
+name: botframework-emulator
+summary: BotFramework-Emulator is a desktop application that allows bot developers to test and debug bots built using the BotBuilder SDK.
 description: 
   
 adopt-info: devmode # use 'strict' once you have the right plugs and slots
@@ -13,15 +13,15 @@ architectures:
   - build-on: arm64
 
 apps:
-  onnxruntime:
-    command: onnxruntime
+  botframework-emulator:
+    command: botframework-emulator
     plugs:
       - network
 
 parts:
-  onnxruntime:
+  botframework-emulator:
     plugin: 
-    source: https://github.com/Microsoft/onnxruntime.git
+    source: https://github.com/Microsoft/BotFramework-Emulator.git
     source-type: git
     override-pull: |
       snapcraftctl pull
