@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/51592103-a5b33b00-1ea3-11e9-951e-d5c794076b2f.png">
+  <img src="https://user-images.githubusercontent.com/45159366/51798500-3782b700-21c8-11e9-83d6-9822ca172425.png">
   <br />
-  BotFramework-Emulator
+  LXQt Desktop
 </h1>
 
-<p align="center"><b>This is the snap for BotFramework-Emulator, a desktop application that allows bot developers to test and debug bots built using the BotBuilder SDK. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
+<p align="center"><b>This is the snap for LXQt Desktop,the Lightweight Qt Desktop Environment. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install botframework-emulator
+    sudo snap install --edge --devmode lxqt-desktop
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
