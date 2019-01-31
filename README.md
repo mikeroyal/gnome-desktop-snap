@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/51798500-3782b700-21c8-11e9-83d6-9822ca172425.png">
+  <img src="https://user-images.githubusercontent.com/45159366/52040486-66609c00-24ec-11e9-9f2d-468a387a9ce1.png">
   <br />
-  LXQt Desktop
+  Budgie Desktop
 </h1>
 
-<p align="center"><b>This is the snap for LXQt Desktop,the Lightweight Qt Desktop Environment. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
+<p align="center"><b>This is the snap for Budgie Desktop, a feature-rich, modern desktop designed to keep out the way of the user. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -20,7 +20,7 @@
 
 ## Install
 
-    sudo snap install --edge --devmode lxqt-desktop
+    sudo snap install --edge --devmode budgie-desktop
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
