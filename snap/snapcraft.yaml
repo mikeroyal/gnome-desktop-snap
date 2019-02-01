@@ -1,5 +1,5 @@
-name: botframework-emulator
-summary: BotFramework-Emulator is a desktop application that allows bot developers to test and debug bots built using the BotBuilder SDK.
+name: budgie-desktop
+summary: Budgie Desktop, a feature-rich, modern desktop designed to keep out the way of the user.
 description: 
   
 adopt-info: devmode # use 'strict' once you have the right plugs and slots
@@ -13,15 +13,15 @@ architectures:
   - build-on: arm64
 
 apps:
-  botframework-emulator:
-    command: botframework-emulator
+  budgie-desktop:
+    command: budgie-desktop
     plugs:
       - network
 
 parts:
-  botframework-emulator:
+  budgie-desktop:
     plugin: 
-    source: https://github.com/Microsoft/BotFramework-Emulator.git
+    source: https://github.com/solus-project/budgie-desktop.git
     source-type: git
     override-pull: |
       snapcraftctl pull
