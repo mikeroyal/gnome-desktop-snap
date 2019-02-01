@@ -16,7 +16,7 @@ apps:
   budgie-desktop:
     command: budgie-desktop
     plugs:
-      - network
+     
 
 parts:
   budgie-desktop:
