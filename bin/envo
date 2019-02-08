@@ -1,0 +1,61 @@
+#!/bin/bash
+
+
+if [ "$SNAP_ARCH" == "amd64" ]; then
+  ARCH='x86_64-linux-gnu'
+elif [ "$SNAP_ARCH" == "armhf" ]; then
+  ARCH="arm-linux-gnueabihf"
+else
+  ARCH="$SNAP_ARCH-linux-gnu"
+fi
+
+export PATH=$PATH:$SNAP/usr/bin:$SNAP/usr/sbin
+# / in the snap is basically ubuntu-core.
+export PATH=$PATH:/usr/local/sbin:/usr/local/bin
+
+export LD_LIBRARY_PATH=$SNAP/usr/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$SNAP/usr/lib/$ARCH:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$SNAP/usr/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$SNAP/usr/lib/$ARCH:$LD_LIBRARY_PATH
+
+# XKB config
+export XKB_CONFIG_ROOT=$SNAP/usr/share/X11/xkb
+
+# Mesa Libs
+export LD_LIBRARY_PATH=$SNAP/usr/lib/$ARCH/mesa:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=$SNAP/usr/lib/$ARCH/mesa-egl:$LD_LIBRARY_PATH
+
+# XDG Config
+export XDG_CONFIG_DIRS=$SNAP/etc/xdg:$SNAP/etc/xdg:$XDG_CONFIG_DIRS
+
+# Note: this doesn't seem to work, QML's LocalStorage either ignores
+# or fails to use $SNAP_USER_DATA if defined here
+export XDG_DATA_DIRS=$SNAP/usr/local/share:$SNAP/usr/share:$SNAP/usr/local/share:$SNAP/usr/share:$XDG_DATA_DIRS
+
+# Font Config
+export FONTCONFIG_PATH=$SNAP/etc/fonts/config.d
+export FONTCONFIG_FILE=$SNAP/etc/fonts/fonts.conf
+
+# Tell libGL where to find the drivers
+export LIBGL_DRIVERS_PATH=$SNAP/usr/lib/$ARCH/dri
+
+# Necessary for the SDK to find the translations directory
+export APP_DIR=$SNAP
+
+# Set XDG_DATA_HOME to local path, dependent on snap version
+export XDG_DATA_HOME=$SNAP_USER_DATA/.local-$SNAP_VERSION/share
+mkdir -p $XDG_DATA_HOME
+
+export XDG_CONFIG_HOME=$SNAP_USER_DATA/.local-$SNAP_VERSION/config
+mkdir -p $XDG_DATA_HOME
+
+export XDG_CACHE_HOME=$SNAP_USER_DATA/.cache-$SNAP_VERSION
+mkdir -p $XDG_CACHE_HOME
+
+export XDG_RUNTIME_DIR=$SNAP_USER_DATA/.local-$SNAP_VERSION/var/run/$UID
+mkdir -p $XDG_RUNTIME_DIR
+
+# Not good, needed for fontconfig and themes
+ln -sf $SNAP/usr/share/{fontconfig,fonts,fonts-*,themes} $XDG_DATA_HOME
+
+bash
