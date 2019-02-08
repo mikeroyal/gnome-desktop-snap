@@ -30,7 +30,7 @@ plugs:
 
 apps:
   budgie-desktop:
-    command: budgie-desktop
+    command: bash
     plugs:
        - desktop
       #      - desktop-legacy
