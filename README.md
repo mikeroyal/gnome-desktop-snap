@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img src="https://user-images.githubusercontent.com/45159366/52040486-66609c00-24ec-11e9-9f2d-468a387a9ce1.png">
+  <img src="https://user-images.githubusercontent.com/45159366/52540606-4af15e80-2d40-11e9-8704-3308568fd105.png">
   <br />
   Budgie Desktop
 </h1>
 
-<p align="center"><b>This is the snap for Budgie Desktop, a feature-rich, modern desktop designed to keep out the way of the user. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
+<p align="center"><b>This is the snap for MATE Desktop, is the continuation of GNOME 2. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
@@ -12,13 +12,13 @@
 </p>
 -->
 
-![my-snap-name](https://user-images.githubusercontent.com/45159366/52110774-88265580-25b6-11e9-9b1c-6550b3d1cfcf.png?raw=true "my-snap-name")
+![my-snap-name](https://user-images.githubusercontent.com/45159366/52540578-02d23c00-2d40-11e9-9cf9-8da013efb8a4.png?raw=true "my-snap-name")
 
 <p align="center">Published for <img src="https://raw.githubusercontent.com/anythingcodes/slack-emoji-for-techies/gh-pages/emoji/tux.png" align="top" width="24" /> with 💝 by Snapcrafters</p>
 
 ## Install
 
-    sudo snap install --edge --devmode budgie-desktop
+    sudo snap install --edge --devmode mate-desktop
 
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
