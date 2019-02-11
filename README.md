@@ -1,10 +1,10 @@
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/45159366/52540606-4af15e80-2d40-11e9-8704-3308568fd105.png">
   <br />
-  Budgie Desktop
+  MATE Desktop
 </h1>
 
-<p align="center"><b>This is the snap for MATE Desktop, is the continuation of GNOME 2. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
+<p align="center"><b>This is the snap for MATE Desktop, is the continuation of GNOME 2 desktop environment. It works on Ubuntu, Fedora, Debian, and other major Linux distributions. </p>
 
 <!-- Uncomment and modify this when you are provided a build status badge
 <p align="center">
