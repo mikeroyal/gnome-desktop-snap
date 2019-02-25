@@ -1,6 +1,6 @@
-name: cinnamon-desktop
-summary:  Cinnamon Desktop Environment.
-description: a Linux desktop which provides advanced innovative features and a traditional user experience. 
+name: gnome-desktop
+summary:  Gnome Desktop Environment.
+description: An easy and elegant way to use your computer, GNOME 3 is designed to put you in control and get things done. 
   
 adopt-info: devmode # use 'strict' once you have the right plugs and slots
 
@@ -29,7 +29,7 @@ plugs:
     default-provider: gtk-common-themes
 
 apps:
-  cinnamon-desktop:
+  gnome-desktop:
     command: bash
     plugs:
        - desktop
@@ -54,9 +54,9 @@ parts:
       - CMAKE_INCLUDE_PATH: $CMAKE_INCLUDE_PATH:$SNAPCRAFT_STAGE/include:$SNAPCRAFT_STAGE/usr/include
       - CMAKE_LIBRARY_PATH: $CMAKE_LIBRARY_PATH:$SNAPCRAFT_STAGE/lib:$SNAPCRAFT_STAGE/usr/lib:$SNAPCRAFT_STAGE/usr/lib/$SNAPCRAFT_ARCH_TRIPLET
  
- cinnamon-desktop:
+ gnome-desktop:
     plugin: 
-    source: https://github.com/linuxmint/Cinnamon.git
+    source: https://gitlab.gnome.org/GNOME/gnome-shell.git
     source-type: git
     override-pull: |
       snapcraftctl pull
