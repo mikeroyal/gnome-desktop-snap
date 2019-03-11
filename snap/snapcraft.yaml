@@ -1,4 +1,5 @@
 name: gnome-desktop
+version: 3.28 #Updating to 3.32 soon.
 summary:  Gnome Desktop Environment.
 description: An easy and elegant way to use your computer, GNOME 3 is designed to put you in control and get things done. 
   
