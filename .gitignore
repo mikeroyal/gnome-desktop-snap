@@ -1,4 +1,4 @@
-#snapcraft specifics
+#snapcraft config specifics
 /parts/
 /stage/
 /prime/
